@@ -185,7 +185,7 @@ minetest.register_craft({
 --
 
 local dirs2 = {12, 9, 18, 7, 12}
-
+--[[
 -- Replace all instances of the horizontal emerald pillar with the
 minetest.register_abm({
 	nodenames = {"emeralds:pillar_horizontal"},
@@ -197,7 +197,7 @@ minetest.register_abm({
 		minetest.add_node(pos, {name = "emeralds:pillar", param2 = nfdir})
 	end,
 })
-
+]]
 --
 -- Compatibility with stairsplus
 --
