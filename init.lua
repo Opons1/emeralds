@@ -72,7 +72,7 @@ stairs.register_stair_and_slab("emeraldblock", "emeralds:block",
 		"Emerald slab",
 		default.node_sound_glass_defaults())
 
-stairs.register_slab("emeraldstair", "emeralds:pillar",
+stairs.register_stair_and_slab("emeraldstair", "emeralds:pillar",
 		{cracky=3, oddly_breakable_by_hand=1},
 		{"emerald_pillar_top.png", "emerald_pillar_top.png", "emerald_pillar_side.png"},
 		"Emerald Pillar stair",
